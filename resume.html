@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume | Jonathan Dooley</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- main content within a `grid-container` fluid stretches the content to the full width of the available space. Added header class-->
+    <div class="grid-container fluid header">
+        <!-- header area. black space.-->
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-6 large-8 large-offset-1"><p id="my-name">JONATHAN DOOLEY</p></div>
+            <div class="cell small-2 large-1"><a href="https://www.linkedin.com/in/jonathandooley/" target="_blank"><img src="images/linkedin-circle.png" alt="Logo Link to Linked In Page" class="header-logo-links"></a></div>
+            <div class="cell small-2 large-1"><a href="https://github.com/jonathan-dooley24" target="_blank" class="header-logo-links"><img src="images/github-circle.png" alt="Logo Link to Git Hub Page" class="header-logo-links"></a></div>
+            <div class="cell small-2 large-1"><a href="https://www.stthomas.edu/" target="_blank" class="header-logo-links"><img src="images/ust-circle.png" alt="Logo Link to Linked In Website" class="header-logo-links"></a></div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-2 large-1 small-offset-2 large-offset-4"><p><a href="index.html" class="header-links">Home</a></p></div>
+            <div class="cell small-2 large-1"><a href="projects.html" class="header-links">Projects</a></div>
+            <div class="cell small-2 large-1"><a href="resume.html" class="header-links">Resume</a></div>
+            <div class="cell small-2 large-1"><a href="fun.html" class="header-links">Personal</a></div>
+        </div>
+    </div>
+    <!-- whitespace area. below header. -->
+    <div class="grid-container fluid body">
+        <!-- first gridspace. profile and quote.-->
+        <div class="grid-x grid-padding-x">
+            <!-- profile-pic -->
+            <div class="cell small-12 large-6" style="text-align: center;"><img id="profile-pic" src="images/jonathan-profile.jpg" alt="Profile Photo of Jonathan Dooley"></div>
+            <!-- quote -->
+            <div class="cell small-auto large-6" style="text-align: center;"><p>"home</p></div>
+        </div>
+    </div>
+
+    <!-- include before closing </body> tag -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

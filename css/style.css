@@ -1,0 +1,52 @@
+
+.header{
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.body1{
+    background-color: whitesmoke;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.body2{
+    background-color: grey;
+    color: white;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3em;
+}
+.header-logo-links{
+    max-height: 3.5em;
+    max-width: 3.5em;
+    padding-top: 0.75em;
+}
+a{
+    color: white;
+    font-size: 1.2em;
+}
+a:hover{
+    color: orange;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+}
+#my-name{
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+}
+#profile-pic{
+    max-width: 20em;
+    border-radius: 50%;
+}
+#big-quote{
+    text-align: left;
+    padding: 4em;
+    padding-top: 9em;
+    
+    line-height: 120%;
+
+}
