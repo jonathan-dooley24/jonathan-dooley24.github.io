@@ -9,6 +9,7 @@
 </head>
 <body>
     <!-- main content within a `grid-container` fluid stretches the content to the full width of the available space. Added header class-->
+    
     <div class="grid-container fluid header">
         <!-- header area. black space.-->
         <div class="grid-x grid-padding-x" style="padding-block-start: 2em;">
@@ -18,53 +19,90 @@
             <div class="cell small-2 large-1"><a href="https://www.stthomas.edu/" target="_blank" class="header-logo-links"><img src="images/ust-circle.png" alt="Logo Link to Linked In Website" class="header-logo-links"></a></div>
         </div>
         <div class="grid-x grid-margin-x grid-padding-x align-center"  style="padding-block-start: 1em; padding-block-end: 1em;">
-            <div class="cell small-2 large-1"><p><a href="index.html">Home</a></p></div>
-            <div class="cell small-2 large-1"><a href="projects.html">Projects</a></div>
-            <div class="cell small-2 large-1"><a href="resume.html">Resume</a></div>
-            <div class="cell small-2 large-1"><a href="fun.html">Personal</a></div>
+            <div class="cell small-2 large-1"><p><a href="index.html" class=" header-menu-links white">Home</a></p></div>
+            <div class="cell small-2 large-1"><a href="projects.html" class=" header-menu-links white">Projects</a></div>
+            <div class="cell small-2 large-1"><a href="resume.html" class=" header-menu-links white">Resume</a></div>
+            <div class="cell small-2 large-1"><a href="fun.html" class=" header-menu-links white">Personal</a></div>
         </div>
     </div>
 
     <!-- whitespace area. below header. -->
-    <div class="grid-container fluid">
-        <!-- first row gridspace. profile and quote.-->
-        <div class="grid-x grid-padding-x body1" style="padding-block-start: 3em;padding-block-end: 2em;">
-            <!-- column. description project 1. -->
-            <div class="cell large-7">
-                <span style="font-size: larger;">" </span>"You miss 100% of the shots you don't take" -Wayne Gretzky<span style="font-size: larger;"> " -Michael Scott</span>
+    <div class="grid-container fluid body2">
+        <div class="grid-x grid-padding-x" style="padding-block-end: 2em;">
+            <div class="cell center">
+                <h1>Projects Overview</h1>
+                <p>A brief look at 3 of my favorite projects that I've worked on in the past - through school and other work.</p>
             </div>
-            <!-- column. pic project 1.-->
-            <div class="cell large-5" style="text-align:center;"><img src="images/ust-circle.png" alt="Picture of ___"></div>
         </div>
-        <!-- next row gridspace. gray. paragraph-->
-        <div class="grid-x grid-padding-x body2 align-center" style="padding-block-start: 2em;">     
-            <!-- column. overview-->      
-            <div class="cell large-8" style="text-align:center;">
-                <h1>Overview</h1>
-                <p style=" font-variant:unset;">
-                    I am a current 4th-year student at the University of St. Thomas in Minnesota. I will be graduating this Spring with a degree in Computer Science, B.S.
-                    I am not studying for a minor in any other field, but other professional fields that interest me are Sports Analytics, Health-Technology, Pyschology, and Cybersecurity.
-                    <br> <br>
-                    Upon graduation, I will begin my career in consulting as a developer at Avanade. Avanade was founded as a joint-venture between Microsoft and Accenture about 20 years ago. 
-                    Since its founding, the company has primarily used Microsoft products to work in software and data consulting with a multitude of different companies. Today, Avanade is made up
-                    of over 36,000 employees across 25+ countries.
-                    <br> <br>
-                    My role is specialized in CRM solutions and utilizing the Microsoft Dynamics 365 realm and many other tools to provide business value to clients. I gained experience in this
-                    speciality in the Summer of 2021, while I worked for Avanade as a Software Engineering intern.
+
+        <!-- first body row. Misty Project.-->
+        <div class="grid-x grid-padding-x body1" style="padding-block-end: 1em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
+            <!-- column. Misty Project Pic. -->
+            <div class="cell large-5 center" style="padding-block-start: 3em;"><a href="https://www.mistyrobotics.com/products/misty-ii/" target="_blank"><img src="images/misty.png" alt="Misty Robot" class="project-pic"></a></div>
+            <!-- column. Misty Project Description-->
+            <div class="cell large-6 center" style="padding-block-start: 1em;">
+                <h1>Misty II Skills Programming</h1>
+                <p>
+                    The Misty II robot is a highly-versatile robot that is created by Misty Robotics. Her applications and capabilities are 
+                    incredibly wide-ranging - and that is by design! She is used in hospitals, schools, retail, libraries, and more.
+                    <br><br>
+                    I was fortunate to get to work a Misty robot during my time with a start-up company called <a href="https://www.useabot.com/" target="_blank" class="black italic">Useabot</a>.
+                    Part of my role on the project was to research and gain an understanding of the Misty SDK that developers use to program skills Misty can perform.
+                    I enjoyed learning all about Misty and was even able to meet Ian Bernstein, an accomplished roboticist, entrepeneuer and Founder/CEO of Misty Robotics.
+                    <br><br>
+                    The Misty skill I helped develop was used in Useabot showcases of the Misty II robot and has eventually been loaded into robots that are now
+                    used to entertain and help children in a children's hostpital in Minnesota.
                 </p>
             </div>
         </div>
-    </div>
 
+        <!-- Next row. CPU Project.-->
+        <div class="grid-x grid-padding-x body2" style="padding-block-end: 1em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
+            <!-- column. CPU Project Description-->
+            <div class="cell large-6 large-offset-1 center">
+                <h1>Pipelined CPU Simulator</h1>
+                <p>
+                    <span class="italic">Computer Architecture</span> is a class I took at UST during my Junior year. It was focused largely on understanding instruction sets,
+                    processors, and memory. One of our assignments, known notorisouly to some students, was to build a simulated processor that 
+                    implements pipelining - a technicque where instructions are carried out in simpler steps concurrently. 
+                    <br><br>
+                    My teammate and I built our simulated processor in C. We recycled a simulated compiler from a previous project and used
+                    our simulated CPU to turn simple instruction sets into machine-readable code and executed the instructions to do basic tasks 
+                    like arithmetic, loops, and function calls.
+                </p>
+            </div>
+            <!-- column. CPU Project Pic. -->
+            <div class="cell large-5 center" style="padding-block-start: 1em;padding-block-end: 1em;"><img src="images/pipeline-cpu.png" alt="Pipleined Processor Diagram" class="project-pic"></div>
+        </div>
+
+        <!-- last body row. Shading Graphics Project.-->
+        <div class="grid-x grid-padding-x body1" style="padding-block-end: 2em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
+            <!-- column. Graphics Project Pic. -->
+            <div class="cell large-5 center" style="padding-block-start: 3em;"><img src="images/phong-shading.png" alt="Circles with shading" class="project-pic"></div>
+            <!-- column. Graphics Project Description-->
+            <div class="cell large-6 center" style="padding-block-start: 1em;">
+                <h1>Phong Shading 3D Graphics</h1>
+                <p>
+                    <span class="italic">Computer Graphics</span> is a class I took at UST during my Sophomore year. It was focused on 2D and 3D 
+                    rendering and how computers can turn code into a visual representation of objects. One of my favorite projects was focused on
+                    shading algorithms and how the presence of a light source should affect the shading/illumination of objects in a 3D scene.
+                    <br><br>
+                    I used the (relatively) famous Phong Algorithm and <span class="italic">OpenGL</span>, an open-source rendering software, to 
+                    make a 3D scene with  shading. It was very cool to see this and gave me an extra appreciation for the CGI we see in movies 
+                    and video games, today.
+                </p>
+            </div>
+        </div>
+    
 
     <!-- last gridspace. footer.-->
     <div class="grid-container fluid header">
         <!-- row. footer area. black space.-->
         <div class="grid-x grid-margin-x grid-padding-x align-center"  style="padding-block-start: 2em; padding-block-end: 3em;">
-            <div class="cell small-2 large-1"><p><a href="index.html">Home</a></p></div>
-            <div class="cell small-2 large-1"><a href="projects.html">Projects</a></div>
-            <div class="cell small-2 large-1"><a href="resume.html">Resume</a></div>
-            <div class="cell small-2 large-1"><a href="fun.html">Personal</a></div>
+            <div class="cell small-2 large-1"><p><a href="index.html" class="header-menu-links white">Home</a></p></div>
+            <div class="cell small-2 large-1"><a href="projects.html" class="header-menu-links white">Projects</a></div>
+            <div class="cell small-2 large-1"><a href="resume.html" class="header-menu-links white">Resume</a></div>
+            <div class="cell small-2 large-1"><a href="fun.html" class="header-menu-links white">Personal</a></div>
         </div>
         <!-- row. bottom of footer area. black space.-->
         <div class="grid-x grid-padding-x header align-center" style="padding-block-end: 2em;">     

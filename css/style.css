@@ -7,31 +7,59 @@
 .body1{
     background-color: whitesmoke;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .body2{
     background-color: grey;
     color: white;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 3em;
+    padding: 1em;
 }
 .header-logo-links{
     max-height: 3.5em;
     max-width: 3.5em;
     padding-top: 0.75em;
 }
-a{
-    color: white;
+.header-menu-links{
     font-size: 1.2em;
 }
 a:hover{
-    color: orange;
+    color: #FC6A03;
+}
+a:active{
+    color: #303030;
+}
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+.orange{
+    color: #FC6A03;
+}
+.italic{
+    font-style: italic;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
     font-size: 2em;
     text-align: center;
+}
+.project-pic{
+    max-width: 25em;
+
+}
+.resume-section{
+    font-size: 1.1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 #my-name{
     color: white;
@@ -44,9 +72,9 @@ h1{
 }
 #big-quote{
     text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 4em;
-    padding-top: 9em;
-    
+    padding-top: 4em;
     line-height: 120%;
-
+    font-size: 1.7em;
 }
