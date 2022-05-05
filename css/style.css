@@ -53,7 +53,10 @@ h1{
 }
 .project-pic{
     max-width: 25em;
-
+}
+.code-snippet{
+    width: 65%;
+    height: auto;
 }
 .resume-section{
     font-size: 1.1em;

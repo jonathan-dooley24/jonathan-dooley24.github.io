@@ -21,7 +21,7 @@
         <div class="grid-x grid-margin-x grid-padding-x align-center"  style="padding-block-start: 1em; padding-block-end: 1em;">
             <div class="cell small-2 large-1"><p><a href="index.html" class=" header-menu-links white">Home</a></p></div>
             <div class="cell small-2 large-1"><a href="projects.html" class=" header-menu-links white">Projects</a></div>
-            <div class="cell small-2 large-1"><a href="projects2.html" class=" header-menu-links white">Projects</a></div>
+            <div class="cell small-2 large-1"><a href="projects2.html" class=" header-menu-links white">Projects++</a></div>
             <div class="cell small-2 large-1"><a href="resume.html" class=" header-menu-links white">Resume</a></div>
             <div class="cell small-2 large-1"><a href="fun.html" class=" header-menu-links white">Personal</a></div>
         </div>
@@ -32,7 +32,12 @@
         <div class="grid-x grid-padding-x" style="padding-block-end: 2em;">
             <div class="cell center">
                 <h1>Projects Overview</h1>
-                <p>A brief look at 3 of my favorite projects that I've worked on in the past - through school and other work.</p>
+                <p>
+                    Here is a more-specific look at 3 of my previous projects inluding a few snippets of the code behind them.
+                    <br><br>
+                    Note: This page is meant to meet the requirements of the portfolio assignment in CISC 480. My personal 
+                    portfolio site will only include the "Projects" page in the future.
+                </p>
             </div>
         </div>
 
@@ -42,59 +47,96 @@
             <div class="cell large-5 center" style="padding-block-start: 3em;"><a href="https://www.mistyrobotics.com/products/misty-ii/" target="_blank"><img src="images/misty.png" alt="Misty Robot" class="project-pic"></a></div>
             <!-- column. Misty Project Description-->
             <div class="cell large-6 center" style="padding-block-start: 1em;">
-                <h1>Misty II Skills Programming</h1>
+                <h1>Misty Robotics as a Learning Tool</h1>
                 <p>
-                    The Misty II robot is a highly-versatile robot that is created by Misty Robotics. Her applications and capabilities are 
-                    incredibly wide-ranging - and that is by design! She is used in hospitals, schools, retail, libraries, and more.
+                    On the <a href="projects.html">Projects</a> page, you can see a short summary introducing Misty and my work with the robot.
+                    Here, I will emphasize a few points about my work with Useabot and programming the Misty robot as it applies to my 
+                    Capstone project. Since Misty wasn't a project assigned through school work, there were no hard contraints. I was able 
+                    to create something I found creative and fun - a silly song and dance that Misty can do to help cheer up the people she meets.
                     <br><br>
-                    I was fortunate to get to work a Misty robot during my time with a start-up company called <a href="https://www.useabot.com/" target="_blank" class="black italic">Useabot</a>.
-                    Part of my role on the project was to research and gain an understanding of the Misty SDK that developers use to program skills Misty can perform.
-                    I enjoyed learning all about Misty and was even able to meet Ian Bernstein, an accomplished roboticist, entrepeneuer and Founder/CEO of Misty Robotics.
-                    <br><br>
-                    The Misty skill I helped develop was used in Useabot showcases of the Misty II robot and has eventually been loaded into robots that are now
-                    used to entertain and help children in a children's hostpital in Minnesota.
+                    Working with Misty really helped me grasp the role and utility of JavaScript. I had very limited experience working with a
+                    specialized SDK and libraries that are "plug-and-play" to help me achieve what I wanted the hardware of the robot to do.
+                    This applies to my role in the Web Development team for the Capstone Project because we are using a wide ranging loadout of 
+                    libraries and tools I had no prior experience with. I think that sometimes a developer's greatest skill is adapting to new 
+                    tech and finding solutions made by others which can be applied to your task-at-hand. Programming with Misty helped be hone 
+                    that skill and it has helped me contribute in a more meaningful way during the Capstone Project, Classy-Schedule.
+
                 </p>
             </div>
+            <!-- column. Misty Code Snippet. -->
+            <div class="cell large-12 center" style="padding-block-start: 1em;"><img src="images/misty_codesnippet.png" alt="Misty Skill Code SNippet" class="code-snippet"></a></div>
+
+
         </div>
 
-        <!-- Next row. CPU Project.-->
-        <div class="grid-x grid-padding-x body2" style="padding-block-end: 1em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
+        <!-- Next row. Dynamic Server Project.-->
+        <div class="grid-x grid-padding-x body2" style="padding-block-end: 2em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
             <!-- column. CPU Project Description-->
-            <div class="cell large-6 large-offset-1 center">
-                <h1>Pipelined CPU Simulator</h1>
+            <div class="cell large-5 large-offset-1 center">
+                <h1>Crime Statistics Dynamic Client and Server</h1>
                 <p>
-                    <span class="italic">Computer Architecture</span> is a class I took at UST during my Junior year. It was focused largely on understanding instruction sets,
-                    processors, and memory. One of our assignments, known notorisouly to some students, was to build a simulated processor that 
-                    implements pipelining - a technicque where instructions are carried out in simpler steps concurrently. 
+                    This project was assigned to me for a Web Development class. The goal was to create a server in a Node runtime that properly 
+                    queries a database and returns JSON data, which could be formatted by a client app to display a map and a table containing crime data for the 
+                    city of St. Paul, MN. I worked in a team with two other classmates, where we all worked on functionality for the entire application. 
                     <br><br>
-                    My teammate and I built our simulated processor in C. We recycled a simulated compiler from a previous project and used
-                    our simulated CPU to turn simple instruction sets into machine-readable code and executed the instructions to do basic tasks 
-                    like arithmetic, loops, and function calls.
+                    In the code below, you can see an example from the server-side code, where the database is being connected and GET requests are 
+                    being handled and formatted into an API response. This practice has helped me use the Classy-Schedule API while developing for the Capstone Project.
+                    <br><br>
+                    This project taught me so much about how code exists on the web and it really sparked my passion for creating aesthetic and 
+                    robust code for the web. I appreciated being able to learn web development from the perspective of a front-end and a back-end 
+                    developer and this project tied those aspects together perfectly.
                 </p>
             </div>
-            <!-- column. CPU Project Pic. -->
-            <div class="cell large-5 center" style="padding-block-start: 1em;padding-block-end: 1em;"><img src="images/pipeline-cpu.png" alt="Pipleined Processor Diagram" class="project-pic"></div>
+            <!-- column. UI Dynamic Server Pic. -->
+            <div class="cell large-6 center" style="padding-block-start: 1em;padding-block-end: 1em;"><img src="images/dyn_server_ui.png" alt="Crime Statistics UI sample" style="width:200%"></div>
+            <!-- column. Dynamic Server Code Snippet. -->
+            <div class="cell large-12 center" style="padding-block-start: 1em;"><img src="images/dyn_server_codesnippet.png" alt="Dynamic Serber Code Snippet" class="code-snippet"></a></div>
         </div>
 
         <!-- last body row. Shading Graphics Project.-->
-        <div class="grid-x grid-padding-x body1" style="padding-block-end: 2em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
-            <!-- column. Graphics Project Pic. -->
-            <div class="cell large-5 center" style="padding-block-start: 3em;"><img src="images/phong-shading.png" alt="Circles with shading" class="project-pic"></div>
+        <div class="grid-x grid-padding-x body1" style="padding-block-end: 1em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
             <!-- column. Graphics Project Description-->
-            <div class="cell large-6 center" style="padding-block-start: 1em;">
-                <h1>Phong Shading 3D Graphics</h1>
+            <div class="cell large-5 center large-offset-1" style="padding-block-start: 1em;">
+                <h1>3D Graphics Wireframe Scene</h1>
                 <p>
-                    <span class="italic">Computer Graphics</span> is a class I took at UST during my Sophomore year. It was focused on 2D and 3D 
-                    rendering and how computers can turn code into a visual representation of objects. One of my favorite projects was focused on
-                    shading algorithms and how the presence of a light source should affect the shading/illumination of objects in a 3D scene.
+                    In a Computer Graphics course, I was able to learn a lot about 3D graphics and how they are rendered to a screen. I gained a new 
+                    appreciation for the CGI we enjoy today after I took a look into the math underlying the visualization of even basic scenes. 
+                    In this project, I was supplied formulas to use creatively to create a wireframe scene of a basic blocky house.
                     <br><br>
-                    I used the (relatively) famous Phong Algorithm and <span class="italic">OpenGL</span>, an open-source rendering software, to 
-                    make a 3D scene with  shading. It was very cool to see this and gave me an extra appreciation for the CGI we see in movies 
-                    and video games, today.
+                    I worked independently to create my code for this project, utilizing tools like OpenGL. Understanding the view and scene control 
+                    was difficult and the matrix math necessary to create a perspective view was trickey, but the result was very rewarding. This project 
+                    helped me appreciate the power of coding and it also helped me gain some artistic and creative outlets for the possibilities of my own 
+                    code outside of conventional practice. Thinking outside-the-box (no graphics pun intended), is a useful skill for any programmer and it 
+                    has helped me be a more well-rounded developer while working on the Capstone Project.
                 </p>
             </div>
+            <!-- column. UI Dynamic Server Pic. -->
+            <div class="cell large-6 center" style="padding-block-start: 1em;padding-block-end: 1em;"><img src="images/3d_graphics_ui.png" alt="3D Graphics UI Example"></div>
+            <!-- column. Dynamic Server Code Snippet. -->
+            <div class="cell large-12 center" style="padding-block-start: 1em;"><img src="images/3d_graphics_codesnippet.png" alt="3D Graphics Code Snippet" class="code-snippet"></a></div>
         </div>
-    
+
+        <!-- Last Project - German Project. -->
+        <div class="grid-x grid-padding-x body2" style="padding-block-end: 2em;"> <!--style="padding-block-start: 3em;padding-block-end: 2em;"-->
+            <!-- column. German Project Description-->
+            <div class="cell large-5 large-offset-1 center">
+                <h1>German Product Description Project</h1>
+                <p>
+                    In my level 3 German Class, one of my assignments was to describe a product from the German speaking world in detail. 
+                    This included all the steps of creating, packaging, and selling the project. While making Beer-Steins and software are 
+                    vastly different tasks, communicating the process of creation is really the same thing. You need to be able to communicate
+                    high-level concepts to other people if you want to be a great developer. This project was great practice at hitting home 
+                    the major important aspects for an audience. 
+                    <br><br>
+                    Speaking in another language was an added bonus! Coding is a global endeavor. I have worked with people from several different 
+                    countries in past internships - Germany included. It is important now more than ever that developers are well-rounded and it 
+                    is a huge benefit to have proficiency an another spoken language. While german-speaking hasn't applied to Classy-Schedule and 
+                    my work on the Capstone Project, this project has helped me strengthen my skills at articulating ideas and processes to an audience.
+                </p>
+            </div>
+            <!-- column. UI Dynamic Server Pic. -->
+            <div class="cell large-6 center" style="padding-block-start: 1em;padding-block-end: 1em;"><img src="images/german.png" alt="Crime Statistics UI sample" style="width:200%"></div>
+        </div>
 
     <!-- last gridspace. footer.-->
     <div class="grid-container fluid header">
